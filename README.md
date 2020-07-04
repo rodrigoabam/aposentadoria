@@ -1,4 +1,4 @@
-# ´Projeto da [Rocketseat](https://rocketseat.com.br/) - Turma LaunchBase 2020
+# Projeto da [Rocketseat](https://rocketseat.com.br/) - Turma LaunchBase 2020
 
 ## 🏋️‍♀️ Desafios:
 
