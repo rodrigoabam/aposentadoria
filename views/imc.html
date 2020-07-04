@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="/public/imc.css">
+    <link rel="stylesheet" href="/public/main.css">
+
+    <script src="/public/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Module One</h1>
+    </header>
+    <main>
+        <section>
+            <div class="card-child" onclick="home()">
+                <h3>Home</h3>
+            </div>
+            <div class="card">
+                <h2>IMC</h2>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="weight">Weight:</label>
+                <input type="text" name="weight" id="weight">
+                <label for="height">Height:</label>
+                <input type="text" name="height" id="height">
+                <button onclick="calImc ()">Calculate</button>
+                <p></p>
+            </div>
+            <div class="card-child" onclick="retirement()">
+                <h3>Retirement</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2020</p>
+    </footer>
+</body>
+</html>

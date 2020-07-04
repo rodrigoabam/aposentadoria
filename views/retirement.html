@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Retirement</title>
+    <link rel="stylesheet" href="/public/retirement.css">
+    <link rel="stylesheet" href="/public/main.css">
+
+    <script src="/public/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Module One</h1>
+    </header>
+    <main>
+        <section>
+            <div class="card-child" onclick="home()">
+                <h3>Home</h3>
+            </div>
+            <div class="card">
+                <h2>Retirement</h2>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="name" id="gender">Gender:</label>
+                <div class="gender">
+                    <label for="name">Man</label>
+                    <input type="radio" name="gender" id="gender" checked>
+                    <label for="name">Woman</label>
+                    <input type="radio" name="gender" id="gender">
+                </div>
+                <label for="weight">Age:</label>
+                <input type="text" name="age" id="age">
+                <label for="height">Contribution Time:</label>
+                <input type="text" name="time" id="time">
+                <button onclick="cal () ">Calculate</button>
+                <p></p>
+            </div>
+            <div class="card-child" onclick="imc()">
+                <h3>IMC</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2020</p>
+    </footer>
+</body>
+</html>

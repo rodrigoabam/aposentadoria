@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    width: 100%;
+
+    background-color: #545E75;
+    padding: 8px;
+
+    color: white;
+    text-align: center;
+}
+
+main {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+main .servicos {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .servico {
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F7FF;
+
+    color: #3D5A80;
+
+    border: solid 1px #545E75;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    
+    transition: 600ms;
+}
+
+main .servico:hover {
+    color: #E0FBFC;
+    background-color: #3F826D;
+    border: solid 1px #3F826D;
+}
+
+footer {
+    width: 100%;
+
+    background-color: #545E75;
+    padding: 16px;
+
+    color: white;
+    text-align: center;
+}
