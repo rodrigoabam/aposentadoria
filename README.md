@@ -1,29 +1,26 @@
-# ´Projeto da [Rocketseat](https://rocketseat.com.br/) - Turma LaunchBase 2020
+# [Rocketseat](https://rocketseat.com.br/)'s project - Class LaunchBase 2020
+in construction
 
-## 🏋️‍♀️ Desafios:
+## 🏋️‍♀️ Challenges:
 
-## [1-1](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md): Primeiros passos com JS.
-
-em construção
+## [1-1](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md): Started with JavaScript.
 
 ---
 
-### 🧠 Os desafios fortaleceram os conceitos:
- - Objetos e Vetores;
- - Funções e métodos;
- - Estrutura de repetição;
+### 🧠 Challenges strengthen concepts:
+ - Objects and Vectors;
+ - Functions and methods;
+ - Repeating structure;
 
  ---
 
- ### 🎯 Objetivo dos desafios:
- - Criar um programa que calcula o IMC e nível de obesidade de uma pessoa;
- - Criar um programa que verifica se uma pessoa pode se aposentar;
-
-em construção
+ ### 🎯 Objective of the challenges:
+ - Create a program that calculates BMI;
+ - Create a program that checks whether a person can retire;
 
  ---
 
- ### 🎥 Ilustração da aplicação:
+ ### 🎥 Preview:
 <h3>
     <img src="public/desafio1-1.gif">
 </h3>
