@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -14,7 +15,7 @@ body {
 header {
     width: 100%;
 
-    background-color: #545E75;
+    background-color: #545E75;  
     padding: 8px;
 
     color: white;
@@ -31,14 +32,14 @@ main {
     align-items: center;
 }
 
-main .servicos {
+main .services {
     width: 100%;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-main .servico {
+main .service {
     width: 100%;
     height: 100vh;
     background-color: #F7F7FF;
@@ -56,7 +57,7 @@ main .servico {
     transition: 600ms;
 }
 
-main .servico:hover {
+main .service:hover {
     color: #E0FBFC;
     background-color: #3F826D;
     border: solid 1px #3F826D;

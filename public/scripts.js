@@ -1,14 +1,18 @@
-function home() {
-    window.location = "home.html"
+const services = document.querySelectorAll('.service')
+const card = document.querySelector('.card')
+
+for(let service of services){
+    service.addEventListener("click", () => {
+        const serviceId = service.getAttribute("id")
+        window.location.href = `http://127.0.0.1:5500/views/${serviceId}.html`
+    })
 }
 
-function imc() {
-    window.location = "imc.html"
-}
+card.querySelector('img').addEventListener("click", () => {
+    window.location.href = `http://127.0.0.1:5500/views/home.html`
+})
 
-function retirement() {
-    window.location = "retirement.html"
-}
+
 
 /* Retirement */
 
@@ -50,9 +54,9 @@ function cal () {
         }
 } 
 
-/* IMC */
+/* BMI */
 
-function calImc () {  
+function calBmi () {  
 
     var n = String(document.querySelector('input#name').value)  
     var w = Number(document.querySelector('input#weight').value)
